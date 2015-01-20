@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+
+<head>
+
+<title>bmindful appointment app - dec 6, 2014</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+<link href="css/elements.css" rel="stylesheet">
+
+
+  <script type="text/javascript" src="js/core.js"></script> 
+</head>
+
+
+<script type="text/javascript">
+
+
+
+
+
+
+
+
+function indexInit(){
+
+
+}  // end of setInit()
+
+
+
+
+
+function respLogin(text){
+
+  alert("respLogin response: "+document.URL+"\n"+text);
+
+  var the_object = eval("(" + text + ")");
+ ////// alert(dump(the_object));
+
+   var iStatus = the_object.status;
+   if (iStatus){
+      var uGoTo = the_object['goto'];   
+      window.location=document.URL+uGoTo;
+   }else{
+      alert("GET LOST");
+   }
+
+ } // end of respLogin()
+
+		//Listen to your custom event
+		window.addEventListener('LOGINSTATUS', function (e) {
+            console.log("did u log in " + e.detail.status + "  " + e.detail.goTo);
+            console.log("hi " + e.detail.userinfo.name + "  " + e.detail.userinfo.id);
+            if ((e.detail.status === "ok") && (e.detail.userinfo.id > 0) ){
+		//		if(ss_supported){
+				    saveInSS('currentUser', e.detail.userinfo);
+		//		    sessionStorage.setItem('session', JSON.stringify(e.detail.userinfo));
+				    console.log("string: " + JSON.stringify(e.detail.userinfo));
+				    window.location = e.detail.goTo;	
+		//		}
+
+			}
+		
+		});
+
+	function login() {
+	
+
+//  ******  will have to scrub data   **************************************************
+	        var loginUser = document.getElementById("usr").value;
+	        var loginPwd = document.getElementById("pwd").value;
+
+
+
+			buildSendMsg("SEND", 
+			             JSON.stringify({resource:"LOGINSESSION",msgtype:"LOGIN", event:"LOGINSTATUS", params:{uname: loginUser, upwd:loginPwd} }),
+			             makePageURL("svr", "tstMsgSrvr.php"),
+			             "post");
+
+
+	} // end of function login()
+
+
+	function testLoginFunc() {
+
+
+
+
+	} // end of function testLoginFunc()
+	
+	
+addLoadEvent(indexInit);
+
+
+</script>
+
+<!--  START HTML HERE   -->
+
+<body >
+
+
+         <br /><br />
+
+         <div > name:
+           <input id="usr" type="text"  style="background-color: white;"/> 
+          </div> 
+
+         <div > password
+           <input id="pwd" type="text"  style="background-color: white;"/> 
+          </div> 
+
+<br /><br />
+
+ <input type="button" value= "login" name="login" onclick="login();">
+
+<br /><br />
+
+<input type="button" onclick="testLoginFunc();" value="-- test login --">
+
+</body>
+
+</html>
+

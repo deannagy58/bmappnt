@@ -1,0 +1,1336 @@
+#### start log #######
+2014-11-28 22:34:35 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL"}
+2014-11-28 22:34:35 [GETALL] -  yeah...GOT HERE ******
+2014-11-28 22:34:37 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL"}
+2014-11-28 22:34:37 [GETALL] -  yeah...GOT HERE ******
+2014-11-28 22:54:34 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-28 22:54:34 [LOGINSESSION] -  got req 
+2014-11-28 22:54:34 [LOGIN] -  got: dean  qwerty
+2014-11-28 22:54:34 [VALIDATEUSER] - :name  :emailAdr  :datetime 
+2014-11-28 22:56:14 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-28 22:56:14 [LOGINSESSION] -  got req 
+2014-11-28 22:56:14 [LOGIN] -  got: dean  qwerty
+2014-11-28 22:56:14 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-28 22:57:26 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-28 22:57:26 [LOGINSESSION] -  got req 
+2014-11-28 22:57:26 [LOGIN] -  got: dean  qwerty
+2014-11-28 22:57:26 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-28 22:59:13 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-28 22:59:13 [LOGINSESSION] -  got req 
+2014-11-28 22:59:13 [LOGIN] -  got: dean  qwerty
+2014-11-28 22:59:13 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-28 22:59:39 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwertyy"}}
+2014-11-28 22:59:39 [LOGINSESSION] -  got req 
+2014-11-28 22:59:39 [LOGIN] -  got: dean  qwertyy
+2014-11-28 22:59:39 [VALIDATEUSER] - :name dean :emailAdr qwertyy
+2014-11-28 23:00:09 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwertyy"}}
+2014-11-28 23:00:09 [LOGINSESSION] -  got req 
+2014-11-28 23:00:09 [LOGIN] -  got: dean  qwertyy
+2014-11-28 23:00:09 [VALIDATEUSER] - :name dean :emailAdr qwertyy
+2014-11-28 23:02:25 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwertyy"}}
+2014-11-28 23:02:25 [LOGINSESSION] -  got req 
+2014-11-28 23:02:25 [LOGIN] -  got: dean  qwertyy
+2014-11-28 23:02:25 [VALIDATEUSER] - :name dean :emailAdr qwertyy
+2014-11-28 23:02:46 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-28 23:02:46 [LOGINSESSION] -  got req 
+2014-11-28 23:02:46 [LOGIN] -  got: dean  qwerty
+2014-11-28 23:02:46 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-28 23:07:15 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-28 23:07:15 [LOGINSESSION] -  got req 
+2014-11-28 23:07:15 [LOGIN] -  got: dean  qwerty
+2014-11-28 23:07:15 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-28 23:09:53 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-28 23:12:19 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-28 23:12:19 [LOGINSESSION] -  got req 
+2014-11-28 23:12:19 [LOGIN] -  got: dean  qwerty
+2014-11-28 23:12:19 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-28 23:29:41 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-28 23:29:41 [LOGINSESSION] -  got req 
+2014-11-28 23:29:41 [LOGIN] -  got: dean  qwerty
+2014-11-28 23:29:41 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-28 23:30:46 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-28 23:30:46 [LOGINSESSION] -  got req 
+2014-11-28 23:30:46 [LOGIN] -  got: dean  qwerty
+2014-11-28 23:30:46 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-28 23:32:10 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-28 23:32:10 [LOGINSESSION] -  got req 
+2014-11-28 23:32:10 [LOGIN] -  got: dean  qwerty
+2014-11-28 23:32:10 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-28 23:32:31 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qweerty"}}
+2014-11-28 23:32:31 [LOGINSESSION] -  got req 
+2014-11-28 23:32:31 [LOGIN] -  got: dean  qweerty
+2014-11-28 23:32:31 [VALIDATEUSER] - :name dean :emailAdr qweerty
+2014-11-29 13:45:01 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-29 13:45:01 [LOGINSESSION] -  got req 
+2014-11-29 13:45:01 [LOGIN] -  got: dean  qwerty
+2014-11-29 13:45:01 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-29 13:45:36 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwert"}}
+2014-11-29 13:45:36 [LOGINSESSION] -  got req 
+2014-11-29 13:45:36 [LOGIN] -  got: dean  qwert
+2014-11-29 13:45:36 [VALIDATEUSER] - :name dean :emailAdr qwert
+2014-11-29 13:52:23 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwer"}}
+2014-11-29 13:52:23 [LOGINSESSION] -  got req 
+2014-11-29 13:52:23 [LOGIN] -  got: dean  qwer
+2014-11-29 13:52:23 [VALIDATEUSER] - :name dean :emailAdr qwer
+2014-11-29 14:09:53 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwer"}}
+2014-11-29 14:11:37 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-29 14:12:21 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-29 14:12:21 [LOGINSESSION] -  got req 
+2014-11-29 14:12:21 [LOGIN] -  got: dean  qwerty
+2014-11-29 14:12:21 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-29 14:15:36 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-29 14:15:36 [LOGINSESSION] -  got req 
+2014-11-29 14:15:36 [LOGIN] -  got: dean  qwerty
+2014-11-29 14:15:36 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-29 14:29:23 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-29 14:29:23 [LOGINSESSION] -  got req 
+2014-11-29 14:29:23 [LOGIN] -  got: dean  qwerty
+2014-11-29 14:29:23 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-29 14:31:32 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-29 14:31:32 [LOGINSESSION] -  got req 
+2014-11-29 14:31:32 [LOGIN] -  got: dean  qwerty
+2014-11-29 14:31:32 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-29 14:31:32 [VALIDATEUSER MID] - id  name 
+2014-11-29 14:32:48 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-29 14:32:48 [LOGINSESSION] -  got req 
+2014-11-29 14:32:48 [LOGIN] -  got: dean  qwerty
+2014-11-29 14:32:48 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-29 14:32:48 [VALIDATEUSER MID] - id 1 name dean
+2014-11-29 14:34:42 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-29 14:34:42 [LOGINSESSION] -  got req 
+2014-11-29 14:34:42 [LOGIN] -  got: dean  qwerty
+2014-11-29 14:34:42 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-29 14:34:42 [VALIDATEUSER MID] - id 1 name dean
+2014-11-29 14:34:42 [VALIDATEUSER exit] - id  name 
+2014-11-29 14:35:40 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-29 14:35:40 [LOGINSESSION] -  got req 
+2014-11-29 14:35:40 [LOGIN] -  got: dean  qwerty
+2014-11-29 14:35:40 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-29 14:35:40 [VALIDATEUSER MID] - id 1 name dean
+2014-11-29 14:35:40 [VALIDATEUSER exit] - id 1 name dean
+2014-11-29 14:36:39 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-29 14:36:39 [LOGINSESSION] -  got req 
+2014-11-29 14:36:39 [LOGIN] -  got: dean  qwerty
+2014-11-29 14:36:39 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-29 14:36:39 [VALIDATEUSER MID] - id 1 name dean
+2014-11-29 14:36:39 [VALIDATEUSER exit] - id 1 name dean
+2014-11-29 14:40:02 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-29 14:40:02 [LOGINSESSION] -  got req 
+2014-11-29 14:40:02 [LOGIN] -  got: dean  qwerty
+2014-11-29 14:40:02 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-29 14:40:02 [VALIDATEUSER MID] - id 1 name dean
+2014-11-29 14:40:02 [VALIDATEUSER exit] - id 1 name dean
+2014-11-29 14:42:10 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-29 14:42:10 [LOGINSESSION] -  got req 
+2014-11-29 14:42:10 [LOGIN] -  got: dean  qwerty
+2014-11-29 14:42:10 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-29 14:42:10 [VALIDATEUSER MID] - id 1 name dean
+2014-11-29 14:42:10 [VALIDATEUSER exit] - id 1 name dean
+2014-11-29 14:42:25 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwert"}}
+2014-11-29 14:42:25 [LOGINSESSION] -  got req 
+2014-11-29 14:42:25 [LOGIN] -  got: dean  qwert
+2014-11-29 14:42:25 [VALIDATEUSER] - :name dean :emailAdr qwert
+2014-11-29 14:42:25 [VALIDATEUSER MID] - id  name 
+2014-11-29 14:42:25 [VALIDATEUSER exit] - id 0 name 
+2014-11-29 14:42:57 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-29 14:42:57 [LOGINSESSION] -  got req 
+2014-11-29 14:42:57 [LOGIN] -  got: berrigan  309drive
+2014-11-29 14:42:57 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-29 14:42:57 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-29 14:42:57 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-29 14:44:02 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-29 14:44:02 [LOGINSESSION] -  got req 
+2014-11-29 14:44:02 [LOGIN] -  got: berrigan  309drive
+2014-11-29 14:44:02 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-29 14:44:02 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-29 14:44:02 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-29 15:27:24 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-29 15:27:24 [LOGINSESSION] -  got req 
+2014-11-29 15:27:24 [LOGIN] -  got: berrigan  309drive
+2014-11-29 15:27:24 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-29 15:27:24 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-29 15:27:24 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-29 15:27:53 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-29 15:27:53 [LOGINSESSION] -  got req 
+2014-11-29 15:27:53 [LOGIN] -  got: berrigan  309drive
+2014-11-29 15:27:53 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-29 15:27:53 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-29 15:27:53 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-29 15:28:52 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-29 15:28:52 [LOGINSESSION] -  got req 
+2014-11-29 15:28:52 [LOGIN] -  got: berrigan  309drive
+2014-11-29 15:28:52 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-29 15:28:52 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-29 15:28:52 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-29 15:32:40 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-29 15:32:40 [LOGINSESSION] -  got req 
+2014-11-29 15:32:40 [LOGIN] -  got: berrigan  309drive
+2014-11-29 15:32:40 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-29 15:32:40 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-29 15:32:40 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-29 15:34:23 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-29 15:34:23 [LOGINSESSION] -  got req 
+2014-11-29 15:34:23 [LOGIN] -  got: berrigan  309drive
+2014-11-29 15:34:23 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-29 15:34:23 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-29 15:34:23 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-29 16:12:00 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-29 16:12:00 [LOGINSESSION] -  got req 
+2014-11-29 16:12:00 [LOGIN] -  got: berrigan  309drive
+2014-11-29 16:12:00 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-29 16:12:00 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-29 16:12:00 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-29 16:13:05 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-29 16:13:05 [LOGINSESSION] -  got req 
+2014-11-29 16:13:05 [LOGIN] -  got: dean  qwerty
+2014-11-29 16:13:05 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-29 16:13:05 [VALIDATEUSER MID] - id 1 name dean
+2014-11-29 16:13:05 [VALIDATEUSER exit] - id 1 name dean
+2014-11-29 16:17:05 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-29 16:17:05 [LOGINSESSION] -  got req 
+2014-11-29 16:17:05 [LOGIN] -  got: dean  qwerty
+2014-11-29 16:17:05 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-29 16:17:05 [VALIDATEUSER MID] - id 1 name dean
+2014-11-29 16:17:05 [VALIDATEUSER exit] - id 1 name dean
+2014-11-29 16:19:36 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-29 16:19:36 [LOGINSESSION] -  got req 
+2014-11-29 16:19:36 [LOGIN] -  got: dean  qwerty
+2014-11-29 16:19:36 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-29 16:19:36 [VALIDATEUSER MID] - id 1 name dean
+2014-11-29 16:19:36 [VALIDATEUSER exit] - id 1 name dean
+2014-11-29 16:24:31 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-29 16:24:31 [LOGINSESSION] -  got req 
+2014-11-29 16:24:31 [LOGIN] -  got: dean  qwerty
+2014-11-29 16:24:31 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-29 16:24:31 [VALIDATEUSER MID] - id 1 name dean
+2014-11-29 16:24:31 [VALIDATEUSER exit] - id 1 name dean
+2014-11-29 16:27:22 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-29 16:27:22 [LOGINSESSION] -  got req 
+2014-11-29 16:27:22 [LOGIN] -  got: berrigan  309drive
+2014-11-29 16:27:22 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-29 16:27:22 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-29 16:27:22 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-29 16:27:44 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-29 16:27:44 [LOGINSESSION] -  got req 
+2014-11-29 16:27:44 [LOGIN] -  got: berrigan  309drive
+2014-11-29 16:27:44 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-29 16:27:44 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-29 16:27:44 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-29 16:28:25 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-29 16:28:25 [LOGINSESSION] -  got req 
+2014-11-29 16:28:25 [LOGIN] -  got: berrigan  309drive
+2014-11-29 16:28:25 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-29 16:28:25 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-29 16:28:25 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-29 16:30:01 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"sue","upwd":"suzieq"}}
+2014-11-29 16:30:01 [LOGINSESSION] -  got req 
+2014-11-29 16:30:01 [LOGIN] -  got: sue  suzieq
+2014-11-29 16:30:01 [VALIDATEUSER] - :name sue :emailAdr suzieq
+2014-11-29 16:30:01 [VALIDATEUSER MID] - id 2 name sue
+2014-11-29 16:30:01 [VALIDATEUSER exit] - id 2 name sue
+2014-11-29 22:30:24 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-29 22:30:24 [LOGINSESSION] -  got req 
+2014-11-29 22:30:24 [LOGIN] -  got: dean  qwerty
+2014-11-29 22:30:24 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-29 22:30:24 [VALIDATEUSER MID] - id 1 name dean
+2014-11-29 22:30:24 [VALIDATEUSER exit] - id 1 name dean
+2014-11-29 22:30:29 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-11-29 22:30:29 [GETALL] -  yeah...GOT HERE ******
+2014-11-29 22:34:27 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-29 22:34:27 [LOGINSESSION] -  got req 
+2014-11-29 22:34:27 [LOGIN] -  got: dean  qwerty
+2014-11-29 22:34:27 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-29 22:34:27 [VALIDATEUSER MID] - id 1 name dean
+2014-11-29 22:34:27 [VALIDATEUSER exit] - id 1 name dean
+2014-11-29 22:34:29 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-11-29 22:34:29 [GETALL] -  yeah...GOT HERE ******
+2014-11-29 22:35:08 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"test for dean","email":"emai.ladd@gmail.on.ca","datetime":"2014-11-30 22:35","id":"0","psychoid":"1"}}
+2014-11-29 22:35:08 [ADD DEAN] -  this far..
+2014-11-29 22:35:08 [ADD] -  got: test for dean
+2014-11-29 22:35:08 [ADDAPPNTMNT] - :name test for dean :emailAdr emai.ladd@gmail.on.ca :datetime 2014-11-30 22:35
+2014-11-29 22:36:47 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-29 22:36:47 [LOGINSESSION] -  got req 
+2014-11-29 22:36:47 [LOGIN] -  got: dean  qwerty
+2014-11-29 22:36:47 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-29 22:36:47 [VALIDATEUSER MID] - id 1 name dean
+2014-11-29 22:36:47 [VALIDATEUSER exit] - id 1 name dean
+2014-11-29 22:37:28 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"deans patient","email":"emailadd@gmail.com.sa","datetime":"2014-11-30 22:37","id":"0","psychoid":"1"}}
+2014-11-29 22:37:28 [ADD DEAN] -  this far..
+2014-11-29 22:37:28 [ADD] -  got: deans patient
+2014-11-29 22:37:28 [ADDAPPNTMNT] - :name deans patient :emailAdr emailadd@gmail.com.sa :datetime 2014-11-30 22:37
+2014-11-29 22:37:28 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-11-29 22:37:28 [GETALL] -  yeah...GOT HERE ******
+2014-11-30 14:01:15 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-30 14:01:15 [LOGINSESSION] -  got req 
+2014-11-30 14:01:15 [LOGIN] -  got: dean  qwerty
+2014-11-30 14:01:15 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-30 14:01:15 [VALIDATEUSER MID] - id 1 name dean
+2014-11-30 14:01:15 [VALIDATEUSER exit] - id 1 name dean
+2014-11-30 14:01:19 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-11-30 14:01:19 [GETALL] -  yeah...GOT HERE ******
+2014-11-30 14:04:31 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-11-30 14:04:31 [LOGINSESSION] -  got req 
+2014-11-30 14:04:31 [LOGIN] -  got: dean  qwerty
+2014-11-30 14:04:31 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-11-30 14:04:31 [VALIDATEUSER MID] - id 1 name dean
+2014-11-30 14:04:31 [VALIDATEUSER exit] - id 1 name dean
+2014-11-30 14:04:33 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-11-30 14:04:33 [GETALL] -  yeah...GOT HERE ******
+2014-11-30 14:26:08 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-30 14:26:08 [LOGINSESSION] -  got req 
+2014-11-30 14:26:08 [LOGIN] -  got: berrigan  309drive
+2014-11-30 14:26:08 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-30 14:26:08 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-30 14:26:08 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-30 14:27:00 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"b. law","email":"emai.ladd@gov.on.ca","datetime":"2014-12-14 16:00","id":"0","psychoid":"3"}}
+2014-11-30 14:28:17 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-30 14:28:17 [LOGINSESSION] -  got req 
+2014-11-30 14:28:17 [LOGIN] -  got: berrigan  309drive
+2014-11-30 14:28:17 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-30 14:28:17 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-30 14:28:17 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-30 14:28:50 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"b. laws","email":"emai.ladd@gmail.com","datetime":"2014-12-14 16:00","id":"0","psychoid":"3"}}
+2014-11-30 14:30:34 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-30 14:30:34 [LOGINSESSION] -  got req 
+2014-11-30 14:30:34 [LOGIN] -  got: berrigan  309drive
+2014-11-30 14:30:34 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-30 14:30:34 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-30 14:30:34 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-30 14:31:08 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"non person","email":"emailadd@gmail.com","datetime":"2014-12-14 16:00","id":"0","psychoid":"3"}}
+2014-11-30 14:31:08 [ADD DEAN] -  this far..
+2014-11-30 14:31:08 [ADD] -  got: non person
+2014-11-30 14:31:08 [overlapAppointments MID] - id 2014-12-14 16:44:00
+2014-11-30 14:31:09 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2014-11-30 14:31:09 [GETALL] -  yeah...GOT HERE ******
+2014-11-30 14:34:38 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-30 14:34:38 [LOGINSESSION] -  got req 
+2014-11-30 14:34:38 [LOGIN] -  got: berrigan  309drive
+2014-11-30 14:34:38 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-30 14:34:38 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-30 14:34:38 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-30 14:35:12 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"qazuo","email":"emailadd@gmail.com","datetime":"2014-12-14 16:00","id":"0","psychoid":"3"}}
+2014-11-30 14:35:12 [ADD DEAN] -  this far..
+2014-11-30 14:35:12 [ADD] -  got: qazuo
+2014-11-30 14:35:12 [overlapAppointments MID] - id 2014-12-14 16:44:00
+2014-11-30 14:35:12 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2014-11-30 14:35:12 [GETALL] -  yeah...GOT HERE ******
+2014-11-30 14:36:46 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-30 14:36:46 [LOGINSESSION] -  got req 
+2014-11-30 14:36:46 [LOGIN] -  got: berrigan  309drive
+2014-11-30 14:36:46 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-30 14:36:46 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-30 14:36:46 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-30 14:37:13 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"kazuu","email":"emai.ladd@gmail.com","datetime":"2014-12-14 16:00","id":"0","psychoid":"3"}}
+2014-11-30 14:37:13 [ADD DEAN] -  this far..
+2014-11-30 14:37:13 [ADD] -  got: kazuu
+2014-11-30 14:37:13 [overlapAppointments MID] - id 2014-12-14 16:44:00
+2014-11-30 14:37:13 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2014-11-30 14:37:13 [GETALL] -  yeah...GOT HERE ******
+2014-11-30 14:41:41 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-30 14:41:41 [LOGINSESSION] -  got req 
+2014-11-30 14:41:41 [LOGIN] -  got: berrigan  309drive
+2014-11-30 14:41:41 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-30 14:41:41 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-30 14:41:41 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-30 14:42:04 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"tttt","email":"emai.ladd@gmail.com","datetime":"2014-12-14 16:00","id":"0","psychoid":"3"}}
+2014-11-30 14:42:04 [ADD DEAN] -  this far..
+2014-11-30 14:42:04 [ADD] -  got: tttt
+2014-11-30 14:42:04 [overlapAppointments MID] - id 2014-12-14 16:44:00
+2014-11-30 14:42:04 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2014-11-30 14:42:04 [GETALL] -  yeah...GOT HERE ******
+2014-11-30 14:42:28 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-30 14:42:28 [LOGINSESSION] -  got req 
+2014-11-30 14:42:28 [LOGIN] -  got: berrigan  309drive
+2014-11-30 14:42:28 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-30 14:42:28 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-30 14:42:28 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-30 14:43:36 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"poiuyt","email":"emai.ladd@gmail.on.ca","datetime":"2014-12-14 16:00","id":"0","psychoid":"3"}}
+2014-11-30 14:43:36 [ADD DEAN] -  this far..
+2014-11-30 14:43:36 [ADD] -  got: poiuyt
+2014-11-30 14:43:36 [overlapAppointments MID] - id 2014-12-14 16:44:00
+2014-11-30 14:44:35 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"point","email":"emailadd@gmail.com.sa","datetime":"2014-12-14 16:00","id":"0","psychoid":"3"}}
+2014-11-30 14:44:35 [ADD DEAN] -  this far..
+2014-11-30 14:44:35 [ADD] -  got: point
+2014-11-30 14:44:35 [overlapAppointments MID] - id 2014-12-14 16:44:00
+2014-11-30 14:44:51 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"point","email":"emailadd@gmail.com.sa","datetime":"2014-12-14 16:30","id":"0","psychoid":"3"}}
+2014-11-30 14:44:51 [ADD DEAN] -  this far..
+2014-11-30 14:44:51 [ADD] -  got: point
+2014-11-30 14:44:51 [overlapAppointments MID] - id 2014-12-14 16:44:00
+2014-11-30 14:45:08 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"point","email":"emailadd@gmail.com.sa","datetime":"2014-12-14 17:30","id":"0","psychoid":"3"}}
+2014-11-30 14:45:08 [ADD DEAN] -  this far..
+2014-11-30 14:45:08 [ADD] -  got: point
+2014-11-30 14:45:08 [overlapAppointments MID] - id 2014-12-14 16:44:00
+2014-11-30 14:45:20 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"point","email":"emailadd@gmail.com.sa","datetime":"2014-12-14 17:45","id":"0","psychoid":"3"}}
+2014-11-30 14:45:20 [ADD DEAN] -  this far..
+2014-11-30 14:45:20 [ADD] -  got: point
+2014-11-30 14:45:20 [overlapAppointments MID] - id 
+2014-11-30 14:45:20 [ADDAPPNTMNT] - :name point :emailAdr emailadd@gmail.com.sa :datetime 2014-12-14 17:45
+2014-11-30 14:45:59 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"point","email":"emailadd@gmail.com.sa","datetime":"2014-12-14 17:45","id":"0","psychoid":"3"}}
+2014-11-30 14:45:59 [ADD DEAN] -  this far..
+2014-11-30 14:45:59 [ADD] -  got: point
+2014-11-30 14:45:59 [overlapAppointments MID] - id 2014-12-14 17:45:00
+2014-11-30 14:46:30 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"point","email":"emailadd@gmail.com.sa","datetime":"2014-12-14 18:45","id":"0","psychoid":"3"}}
+2014-11-30 14:46:30 [ADD DEAN] -  this far..
+2014-11-30 14:46:30 [ADD] -  got: point
+2014-11-30 14:46:30 [overlapAppointments MID] - id 2014-12-14 17:45:00
+2014-11-30 14:46:45 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"point","email":"emailadd@gmail.com.sa","datetime":"2014-12-14 18:46","id":"0","psychoid":"3"}}
+2014-11-30 14:46:45 [ADD DEAN] -  this far..
+2014-11-30 14:46:45 [ADD] -  got: point
+2014-11-30 14:46:45 [overlapAppointments MID] - id 
+2014-11-30 14:46:45 [ADDAPPNTMNT] - :name point :emailAdr emailadd@gmail.com.sa :datetime 2014-12-14 18:46
+2014-11-30 14:48:38 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"tyuio","email":"emai.ladd@gmail.on.ca","datetime":"2014-12-14 16:00","id":"0","psychoid":"3"}}
+2014-11-30 14:48:38 [ADD DEAN] -  this far..
+2014-11-30 14:48:38 [ADD] -  got: tyuio
+2014-11-30 14:48:38 [overlapAppointments MID] - id 2014-12-14 16:44:00
+2014-11-30 14:48:57 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"tyuio","email":"emai.ladd@gmail.on.ca","datetime":"2014-12-14 18:00","id":"0","psychoid":"3"}}
+2014-11-30 14:48:57 [ADD DEAN] -  this far..
+2014-11-30 14:48:57 [ADD] -  got: tyuio
+2014-11-30 14:48:57 [overlapAppointments MID] - id 2014-12-14 17:45:00
+2014-11-30 14:49:09 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"tyuio","email":"emai.ladd@gmail.on.ca","datetime":"2014-12-14 19:00","id":"0","psychoid":"3"}}
+2014-11-30 14:49:09 [ADD DEAN] -  this far..
+2014-11-30 14:49:09 [ADD] -  got: tyuio
+2014-11-30 14:49:09 [overlapAppointments MID] - id 2014-12-14 18:46:00
+2014-11-30 14:49:20 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"tyuio","email":"emai.ladd@gmail.on.ca","datetime":"2014-12-14 20:00","id":"0","psychoid":"3"}}
+2014-11-30 14:49:20 [ADD DEAN] -  this far..
+2014-11-30 14:49:20 [ADD] -  got: tyuio
+2014-11-30 14:49:20 [overlapAppointments MID] - id 
+2014-11-30 14:49:20 [ADDAPPNTMNT] - :name tyuio :emailAdr emai.ladd@gmail.on.ca :datetime 2014-12-14 20:00
+2014-11-30 14:49:20 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2014-11-30 14:49:20 [GETALL] -  yeah...GOT HERE ******
+2014-11-30 14:53:12 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-30 14:53:12 [LOGINSESSION] -  got req 
+2014-11-30 14:53:12 [LOGIN] -  got: berrigan  309drive
+2014-11-30 14:53:12 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-30 14:53:12 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-30 14:53:12 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-30 14:53:47 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"bennie","email":"yogagigi@hotmail.com","datetime":"2014-12-14 16:00","id":"0","psychoid":"3"}}
+2014-11-30 14:53:47 [ADD DEAN] -  this far..
+2014-11-30 14:53:47 [ADD] -  got: bennie
+2014-11-30 14:53:47 [overlapAppointments MID] - id 2014-12-14 16:44:00
+2014-11-30 14:53:58 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2014-11-30 14:53:58 [GETALL] -  yeah...GOT HERE ******
+2014-11-30 15:04:38 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-30 15:04:38 [LOGINSESSION] -  got req 
+2014-11-30 15:04:38 [LOGIN] -  got: berrigan  309drive
+2014-11-30 15:04:38 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-30 15:04:38 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-30 15:04:38 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-30 15:05:07 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-30 15:05:07 [LOGINSESSION] -  got req 
+2014-11-30 15:05:07 [LOGIN] -  got: berrigan  309drive
+2014-11-30 15:05:07 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-30 15:05:07 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-30 15:05:07 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-30 15:05:11 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-11-30 15:05:11 [LOGINSESSION] -  got req 
+2014-11-30 15:05:11 [LOGIN] -  got: berrigan  309drive
+2014-11-30 15:05:11 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-11-30 15:05:11 [VALIDATEUSER MID] - id 3 name berrigan
+2014-11-30 15:05:11 [VALIDATEUSER exit] - id 3 name berrigan
+2014-11-30 15:05:21 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2014-11-30 15:05:21 [GETALL] -  yeah...GOT HERE ******
+2014-11-30 15:06:05 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"iiiigi","email":"yogagigi@hotmail.com","datetime":"2014-12-14 16:00","id":"0","psychoid":"3"}}
+2014-11-30 15:06:05 [ADD DEAN] -  this far..
+2014-11-30 15:06:05 [ADD] -  got: iiiigi
+2014-11-30 15:06:05 [overlapAppointments MID] - id 2014-12-14 16:44:00
+2014-11-30 15:06:22 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"iiiigi","email":"yogagigi@hotmail.com","datetime":"2014-12-14 15:00","id":"0","psychoid":"3"}}
+2014-11-30 15:06:22 [ADD DEAN] -  this far..
+2014-11-30 15:06:22 [ADD] -  got: iiiigi
+2014-11-30 15:06:22 [overlapAppointments MID] - id 
+2014-11-30 15:06:22 [ADDAPPNTMNT] - :name iiiigi :emailAdr yogagigi@hotmail.com :datetime 2014-12-14 15:00
+2014-11-30 15:06:22 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2014-11-30 15:06:22 [GETALL] -  yeah...GOT HERE ******
+2014-11-30 15:06:48 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"iiiigi","email":"yogagigi@hotmail.com","datetime":"2014-12-14 14:00","id":"57","psychoid":"3"}}
+2014-11-30 15:06:48 [update DEAN] -  this far..
+2014-11-30 15:06:48 [update] -  got: iiiigi
+2014-11-30 15:06:48 [UPDATEAPPNTMNT] - :name iiiigi :emailAdr yogagigi@hotmail.com :datetime 2014-12-14 14:00
+2014-11-30 15:06:48 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2014-11-30 15:06:48 [GETALL] -  yeah...GOT HERE ******
+2014-11-30 15:07:01 [TESTING] - hey: {"resource":"APPNT","msgtype":"DELETE","event":"DELAPP","appid":57}
+2014-11-30 15:07:01 [GETALL] -  yeah...GOT HERE ******
+2014-11-30 15:07:01 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2014-11-30 15:07:01 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 21:26:36 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"sue","upwd":"suzieq"}}
+2014-12-01 21:26:36 [LOGINSESSION] -  got req 
+2014-12-01 21:26:36 [LOGIN] -  got: sue  suzieq
+2014-12-01 21:26:36 [VALIDATEUSER] - :name sue :emailAdr suzieq
+2014-12-01 21:26:36 [VALIDATEUSER MID] - id 2 name sue
+2014-12-01 21:26:36 [VALIDATEUSER exit] - id 2 name sue
+2014-12-01 21:28:07 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 21:28:07 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 21:28:35 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"zsuzsa sue","email":"sue@bmindful.ca","datetime":"2015-01-01 20:15","id":"48","psychoid":"2"}}
+2014-12-01 21:28:35 [update DEAN] -  this far..
+2014-12-01 21:28:35 [update] -  got: zsuzsa sue
+2014-12-01 21:28:35 [UPDATEAPPNTMNT] - :name zsuzsa sue :emailAdr sue@bmindful.ca :datetime 2015-01-01 20:15
+2014-12-01 21:28:35 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 21:28:35 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 21:29:29 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"zsuzsa sue","email":"sue@bmindful.ca","datetime":"2015-01-01 20:20","id":"48","psychoid":"2"}}
+2014-12-01 21:29:29 [update DEAN] -  this far..
+2014-12-01 21:29:29 [update] -  got: zsuzsa sue
+2014-12-01 21:29:29 [UPDATEAPPNTMNT] - :name zsuzsa sue :emailAdr sue@bmindful.ca :datetime 2015-01-01 20:20
+2014-12-01 21:29:29 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 21:29:29 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 21:47:57 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 21:47:57 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 21:48:27 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"zsuzsa sue","email":"sue@bmindful.ca","datetime":"2015-01-01 20:30","id":"48","psychoid":"2"}}
+2014-12-01 21:48:27 [update DEAN] -  this far..
+2014-12-01 21:48:27 [update] -  got: zsuzsa sue
+2014-12-01 21:48:27 [UPDATEAPPNTMNT] - :name zsuzsa sue :emailAdr sue@bmindful.ca :datetime 2015-01-01 20:30
+2014-12-01 21:48:27 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 21:48:27 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 21:50:48 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"zsuzsa sue","email":"sue@bmindful.ca","datetime":"2015-01-01 08:55","id":"48","psychoid":"2"}}
+2014-12-01 21:50:48 [update DEAN] -  this far..
+2014-12-01 21:50:48 [update] -  got: zsuzsa sue
+2014-12-01 21:50:48 [UPDATEAPPNTMNT] - :name zsuzsa sue :emailAdr sue@bmindful.ca :datetime 2015-01-01 08:55
+2014-12-01 21:50:48 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 21:50:48 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:07:51 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:07:51 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:08:10 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"zsuzsa sue","email":"sue@bmindful.ca","datetime":"2015-01-01 21:00","id":"48","psychoid":"2"}}
+2014-12-01 22:08:10 [update DEAN] -  this far..
+2014-12-01 22:08:10 [update] -  got: zsuzsa sue
+2014-12-01 22:08:10 [UPDATEAPPNTMNT] - :name zsuzsa sue :emailAdr sue@bmindful.ca :datetime 2015-01-01 21:00
+2014-12-01 22:08:10 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:08:10 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:08:21 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"zsuzsa sue","email":"sue@bmindful.ca","datetime":"2015-01-01 09:05","id":"48","psychoid":"2"}}
+2014-12-01 22:08:21 [update DEAN] -  this far..
+2014-12-01 22:08:21 [update] -  got: zsuzsa sue
+2014-12-01 22:08:21 [UPDATEAPPNTMNT] - :name zsuzsa sue :emailAdr sue@bmindful.ca :datetime 2015-01-01 09:05
+2014-12-01 22:08:21 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:08:21 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:08:41 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"zsuzsa sue","email":"sue@bmindful.ca","datetime":"2015-01-01 12:34","id":"48","psychoid":"2"}}
+2014-12-01 22:08:41 [update DEAN] -  this far..
+2014-12-01 22:08:41 [update] -  got: zsuzsa sue
+2014-12-01 22:08:41 [UPDATEAPPNTMNT] - :name zsuzsa sue :emailAdr sue@bmindful.ca :datetime 2015-01-01 12:34
+2014-12-01 22:08:41 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:08:41 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:09:00 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"zsuzsa sue","email":"sue@bmindful.ca","datetime":"2015-01-01 12:34","id":"48","psychoid":"2"}}
+2014-12-01 22:09:00 [update DEAN] -  this far..
+2014-12-01 22:09:00 [update] -  got: zsuzsa sue
+2014-12-01 22:09:00 [UPDATEAPPNTMNT] - :name zsuzsa sue :emailAdr sue@bmindful.ca :datetime 2015-01-01 12:34
+2014-12-01 22:09:00 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:09:00 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:09:22 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"zsuzsa sue","email":"sue@bmindful.ca","datetime":"2015-01-01 12:36","id":"48","psychoid":"2"}}
+2014-12-01 22:09:22 [update DEAN] -  this far..
+2014-12-01 22:09:22 [update] -  got: zsuzsa sue
+2014-12-01 22:09:22 [UPDATEAPPNTMNT] - :name zsuzsa sue :emailAdr sue@bmindful.ca :datetime 2015-01-01 12:36
+2014-12-01 22:09:22 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:09:22 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:10:26 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"zsuzsa sue","email":"sue@bmindful.ca","datetime":"2015-01-01 10:15","id":"48","psychoid":"2"}}
+2014-12-01 22:10:26 [update DEAN] -  this far..
+2014-12-01 22:10:26 [update] -  got: zsuzsa sue
+2014-12-01 22:10:26 [UPDATEAPPNTMNT] - :name zsuzsa sue :emailAdr sue@bmindful.ca :datetime 2015-01-01 10:15
+2014-12-01 22:10:26 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:10:26 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:12:45 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"over lap","email":"emai.ladd@gmail.com","datetime":"2015-01-01 10:20","id":"48","psychoid":"2"}}
+2014-12-01 22:12:45 [ADD DEAN] -  this far..
+2014-12-01 22:12:45 [ADD] -  got: over lap
+2014-12-01 22:12:45 [overlapAppointments MID] - id 2015-01-01 10:15:00
+2014-12-01 22:12:54 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:12:54 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:14:15 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:14:15 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:14:58 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"o lap","email":"emai.ladd@gmail.com","datetime":"2015-01-01 10:30","id":"48","psychoid":"2"}}
+2014-12-01 22:14:58 [ADD DEAN] -  this far..
+2014-12-01 22:14:58 [ADD] -  got: o lap
+2014-12-01 22:14:58 [overlapAppointments MID] - id 2015-01-01 10:15:00
+2014-12-01 22:15:16 [TESTING] - hey: {"resource":"APPNT","msgtype":"DELETE","event":"DELAPP","appid":52}
+2014-12-01 22:15:16 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:15:16 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:15:16 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:15:53 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"o lapp","email":"emai.ladd@gmail.com","datetime":"2015-01-01 09:00","id":"48","psychoid":"2"}}
+2014-12-01 22:15:53 [ADD DEAN] -  this far..
+2014-12-01 22:15:53 [ADD] -  got: o lapp
+2014-12-01 22:15:53 [overlapAppointments MID] - id 
+2014-12-01 22:15:53 [ADDAPPNTMNT] - :name o lapp :emailAdr emai.ladd@gmail.com :datetime 2015-01-01 09:00
+2014-12-01 22:15:53 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:15:53 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:16:06 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"o lapp","email":"emai.ladd@gmail.com","datetime":"2015-01-01 10:00","id":"58","psychoid":"2"}}
+2014-12-01 22:16:06 [update DEAN] -  this far..
+2014-12-01 22:16:06 [update] -  got: o lapp
+2014-12-01 22:16:06 [UPDATEAPPNTMNT] - :name o lapp :emailAdr emai.ladd@gmail.com :datetime 2015-01-01 10:00
+2014-12-01 22:16:06 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:16:06 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:18:49 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"o lapp","email":"emai.ladd@gmail.com","datetime":"2015-01-01 10:30","id":"58","psychoid":"2"}}
+2014-12-01 22:18:49 [update DEAN] -  this far..
+2014-12-01 22:18:49 [update] -  got: o lapp
+2014-12-01 22:18:49 [overlapAppointments MID] - id 2015-01-01 10:15:00
+2014-12-01 22:18:49 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:18:49 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:20:53 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"o lapp","email":"emai.ladd@gmail.com","datetime":"2015-01-01 10:30","id":"58","psychoid":"2"}}
+2014-12-01 22:20:53 [update DEAN] -  this far..
+2014-12-01 22:20:53 [update] -  got: o lapp
+2014-12-01 22:20:53 [overlapAppointments MID] - id 2015-01-01 10:15:00
+2014-12-01 22:21:10 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"o lapp","email":"emai.ladd@gmail.com","datetime":"2015-01-01 11:00","id":"58","psychoid":"2"}}
+2014-12-01 22:21:10 [update DEAN] -  this far..
+2014-12-01 22:21:10 [update] -  got: o lapp
+2014-12-01 22:21:10 [overlapAppointments MID] - id 2015-01-01 10:15:00
+2014-12-01 22:21:17 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"o lapp","email":"emai.ladd@gmail.com","datetime":"2015-01-01 11:30","id":"58","psychoid":"2"}}
+2014-12-01 22:21:17 [update DEAN] -  this far..
+2014-12-01 22:21:17 [update] -  got: o lapp
+2014-12-01 22:21:17 [overlapAppointments MID] - id 
+2014-12-01 22:21:17 [UPDATEAPPNTMNT] - :name o lapp :emailAdr emai.ladd@gmail.com :datetime 2015-01-01 11:30
+2014-12-01 22:21:17 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:21:17 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:52:38 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:52:38 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:53:55 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:53:55 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:54:30 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:54:30 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:55:15 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:55:15 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:56:17 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:56:17 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 22:57:40 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 22:57:40 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 23:01:45 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 23:01:45 [GETALL] -  yeah...GOT HERE ******
+2014-12-01 23:02:14 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-01 23:02:14 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 21:10:18 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 21:10:18 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 21:29:52 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 21:29:52 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 21:37:03 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 21:37:03 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 21:37:38 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 21:37:38 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 21:44:36 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 21:44:36 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 21:45:56 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 21:45:56 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 21:48:09 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 21:48:09 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 21:48:51 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 21:48:51 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 21:49:26 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 21:49:26 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 21:50:01 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 21:50:01 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 21:58:38 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 21:58:38 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 21:58:56 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 21:58:56 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 22:01:14 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 22:01:14 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 22:02:23 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 22:02:23 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 22:06:21 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 22:06:21 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 22:08:03 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 22:08:03 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 22:09:57 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 22:09:57 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 22:10:39 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 22:10:39 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 22:11:47 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 22:11:47 [GETALL] -  yeah...GOT HERE ******
+2014-12-02 22:24:41 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-02 22:24:41 [GETALL] -  yeah...GOT HERE ******
+2014-12-04 19:02:59 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-04 19:02:59 [GETALL] -  yeah...GOT HERE ******
+2014-12-06 11:23:16 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"sue","upwd":"suzieq"}}
+2014-12-06 11:23:16 [LOGINSESSION] -  got req 
+2014-12-06 11:23:16 [LOGIN] -  got: sue  suzieq
+2014-12-06 11:23:16 [VALIDATEUSER] - :name sue :emailAdr suzieq
+2014-12-06 11:23:16 [VALIDATEUSER MID] - id 2 name sue
+2014-12-06 11:23:16 [VALIDATEUSER exit] - id 2 name sue
+2014-12-06 11:23:20 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-06 11:23:20 [GETALL] -  yeah...GOT HERE ******
+2014-12-06 11:24:00 [TESTING] - hey: {"resource":"APPNT","msgtype":"DELETE","event":"DELAPP","appid":34}
+2014-12-06 11:24:00 [GETALL] -  yeah...GOT HERE ******
+2014-12-06 11:24:01 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-06 11:24:01 [GETALL] -  yeah...GOT HERE ******
+2014-12-06 14:40:28 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"dean nnnnagy","email":"emai.ladd@gov.on.ca","datetime":"2014-12-07 08:15","psychoid":"2"}}
+2014-12-06 14:40:28 [ADD DEAN] -  this far..
+2014-12-06 14:40:28 [ADD] -  got: dean nnnnagy
+2014-12-06 14:40:28 [overlapAppointments MID] - id 
+2014-12-06 14:40:28 [ADDAPPNTMNT] - :name dean nnnnagy :emailAdr emai.ladd@gov.on.ca :datetime 2014-12-07 08:15
+2014-12-06 14:40:28 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-06 14:40:28 [GETALL] -  yeah...GOT HERE ******
+2014-12-06 14:42:15 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-06 14:42:15 [GETALL] -  yeah...GOT HERE ******
+2014-12-06 14:43:48 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-06 14:43:48 [GETALL] -  yeah...GOT HERE ******
+2014-12-06 14:44:08 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"dean nnnnagy","email":"emai.ladd@gov.on.ca","datetime":"2014-12-09 08:45","psychoid":"2"}}
+2014-12-06 14:44:08 [update DEAN] -  this far..
+2014-12-06 14:44:08 [update] -  got: dean nnnnagy
+2014-12-06 14:44:08 [overlapAppointments MID] - id 
+2014-12-06 14:44:08 [UPDATEAPPNTMNT] - :name dean nnnnagy :emailAdr emai.ladd@gov.on.ca :datetime 2014-12-09 08:45
+2014-12-06 14:44:08 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-06 14:44:08 [GETALL] -  yeah...GOT HERE ******
+2014-12-06 14:44:42 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-06 14:44:42 [GETALL] -  yeah...GOT HERE ******
+2014-12-06 14:46:23 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"dean nnnnagy","email":"emai.ladd@gov.on.ca","datetime":"2014-12-09 08:15","psychoid":"2"}}
+2014-12-06 14:46:23 [update DEAN] -  this far..
+2014-12-06 14:46:23 [update] -  got: dean nnnnagy
+2014-12-06 14:46:23 [overlapAppointments MID] - id 
+2014-12-06 14:46:23 [UPDATEAPPNTMNT] - :name dean nnnnagy :emailAdr emai.ladd@gov.on.ca :datetime 2014-12-09 08:15
+2014-12-06 14:46:23 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-06 14:46:23 [GETALL] -  yeah...GOT HERE ******
+2014-12-06 14:51:51 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-06 14:51:51 [GETALL] -  yeah...GOT HERE ******
+2014-12-06 14:52:07 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"dean nnnnagy","email":"emai.ladd@gov.on.ca","datetime":"2014-12-09 08:15","id":"59","psychoid":"2"}}
+2014-12-06 14:52:07 [update DEAN] -  this far..
+2014-12-06 14:52:07 [update] -  got: dean nnnnagy
+2014-12-06 14:52:07 [overlapAppointments MID] - id 
+2014-12-06 14:52:07 [UPDATEAPPNTMNT] - :name dean nnnnagy :emailAdr emai.ladd@gov.on.ca :datetime 2014-12-09 08:15
+2014-12-06 14:52:07 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-06 14:52:07 [GETALL] -  yeah...GOT HERE ******
+2014-12-06 23:24:10 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"late saturday","email":"latesaturday@gmail.com.sa","datetime":"2014-12-07 08:00","id":"0","psychoid":"2"}}
+2014-12-06 23:24:10 [ADD DEAN] -  this far..
+2014-12-06 23:24:10 [ADD] -  got: late saturday
+2014-12-06 23:24:10 [overlapAppointments MID] - id 
+2014-12-06 23:24:10 [ADDAPPNTMNT] - :name late saturday :emailAdr latesaturday@gmail.com.sa :datetime 2014-12-07 08:00
+2014-12-06 23:24:10 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-06 23:24:10 [GETALL] -  yeah...GOT HERE ******
+2014-12-06 23:31:34 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"benji","email":"emai.ladd@gmail.on.ca","datetime":"2014-11-30 05:30","id":"0","psychoid":"2"}}
+2014-12-06 23:31:34 [ADD DEAN] -  this far..
+2014-12-06 23:31:34 [ADD] -  got: benji
+2014-12-06 23:31:34 [overlapAppointments MID] - id 
+2014-12-06 23:31:34 [ADDAPPNTMNT] - :name benji :emailAdr emai.ladd@gmail.on.ca :datetime 2014-11-30 05:30
+2014-12-06 23:31:34 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-06 23:31:34 [GETALL] -  yeah...GOT HERE ******
+2014-12-06 23:37:56 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-12-06 23:37:56 [LOGINSESSION] -  got req 
+2014-12-06 23:37:56 [LOGIN] -  got: dean  qwerty
+2014-12-06 23:37:56 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-12-06 23:37:56 [VALIDATEUSER MID] - id 1 name dean
+2014-12-06 23:37:56 [VALIDATEUSER exit] - id 1 name dean
+2014-12-07 14:57:16 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"sue","upwd":"suzieq"}}
+2014-12-07 14:57:16 [LOGINSESSION] -  got req 
+2014-12-07 14:57:16 [LOGIN] -  got: sue  suzieq
+2014-12-07 14:57:16 [VALIDATEUSER] - :name sue :emailAdr suzieq
+2014-12-07 14:57:16 [VALIDATEUSER MID] - id 2 name sue
+2014-12-07 14:57:16 [VALIDATEUSER exit] - id 2 name sue
+2014-12-07 18:46:50 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"sund eveni","email":"sunday.nite@chillipepper.com","datetime":"2014-12-10 07:00","id":"0","psychoid":"2"}}
+2014-12-07 18:46:50 [ADD DEAN] -  this far..
+2014-12-07 18:46:50 [ADD] -  got: sund eveni
+2014-12-07 18:46:50 [overlapAppointments MID] - id 
+2014-12-07 18:46:50 [ADDAPPNTMNT] - :name sund eveni :emailAdr sunday.nite@chillipepper.com :datetime 2014-12-10 07:00
+2014-12-07 18:46:50 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-07 18:46:50 [GETALL] -  yeah...GOT HERE ******
+2014-12-07 19:48:11 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"test before cut","email":"emai.ladd@gov.on.ca","datetime":"2014-12-11 07:48","id":"0","psychoid":"2"}}
+2014-12-07 19:48:11 [ADD DEAN] -  this far..
+2014-12-07 19:48:11 [ADD] -  got: test before cut
+2014-12-07 19:48:11 [overlapAppointments MID] - id 
+2014-12-07 19:48:11 [ADDAPPNTMNT] - :name test before cut :emailAdr emai.ladd@gov.on.ca :datetime 2014-12-11 07:48
+2014-12-07 19:48:11 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-07 19:48:11 [GETALL] -  yeah...GOT HERE ******
+2014-12-07 19:54:19 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"m odule","email":"abc@qwerty.com","datetime":"2014-12-09 07:54","id":"0","psychoid":"2"}}
+2014-12-07 19:54:19 [ADD DEAN] -  this far..
+2014-12-07 19:54:19 [ADD] -  got: m odule
+2014-12-07 19:54:19 [overlapAppointments MID] - id 2014-12-09 08:15:00
+2014-12-07 19:54:36 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"m odule","email":"abc@qwerty.com","datetime":"2014-12-09 07:04","id":"0","psychoid":"2"}}
+2014-12-07 19:54:36 [ADD DEAN] -  this far..
+2014-12-07 19:54:36 [ADD] -  got: m odule
+2014-12-07 19:54:36 [overlapAppointments MID] - id 
+2014-12-07 19:54:36 [ADDAPPNTMNT] - :name m odule :emailAdr abc@qwerty.com :datetime 2014-12-09 07:04
+2014-12-07 19:54:36 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-07 19:54:36 [GETALL] -  yeah...GOT HERE ******
+2014-12-08 22:11:25 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-12-08 22:11:25 [LOGINSESSION] -  got req 
+2014-12-08 22:11:25 [LOGIN] -  got: dean  qwerty
+2014-12-08 22:11:25 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-12-08 22:11:25 [VALIDATEUSER MID] - id 1 name dean
+2014-12-08 22:11:25 [VALIDATEUSER exit] - id 1 name dean
+2014-12-08 22:11:35 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-08 22:11:35 [GETALL] -  yeah...GOT HERE ******
+2014-12-08 22:13:38 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-08 22:13:38 [GETALL] -  yeah...GOT HERE ******
+2014-12-08 22:14:59 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-08 22:14:59 [GETALL] -  yeah...GOT HERE ******
+2014-12-08 22:15:32 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-08 22:15:32 [GETALL] -  yeah...GOT HERE ******
+2014-12-08 22:15:48 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"dean d nagy","email":"deannagy58@gmail.com","datetime":"2015-01-01 08:15","id":"47","psychoid":"1"}}
+2014-12-08 22:15:48 [update DEAN] -  this far..
+2014-12-08 22:15:48 [update] -  got: dean d nagy
+2014-12-08 22:15:48 [overlapAppointments MID] - id 2015-01-01 08:00:00
+2014-12-08 22:16:48 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"dean d nagy","email":"deannagy58@gmail.com","datetime":"2015-01-01 09:15","id":"47","psychoid":"1"}}
+2014-12-08 22:16:48 [update DEAN] -  this far..
+2014-12-08 22:16:48 [update] -  got: dean d nagy
+2014-12-08 22:16:48 [overlapAppointments MID] - id 
+2014-12-08 22:16:48 [UPDATEAPPNTMNT] - :name dean d nagy :emailAdr deannagy58@gmail.com :datetime 2015-01-01 09:15
+2014-12-08 22:16:48 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-08 22:16:48 [GETALL] -  yeah...GOT HERE ******
+2014-12-08 22:21:15 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"dean d nagy","email":"deannagy58@gmail.com","datetime":"2015-01-01 08:15","id":"47","psychoid":"1"}}
+2014-12-08 22:21:15 [update DEAN] -  this far..
+2014-12-08 22:21:15 [update] -  got: dean d nagy
+2014-12-08 22:21:15 [overlapAppointments MID] - id 2015-01-01 09:15:00
+2014-12-08 22:21:30 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"dean d nagy","email":"deannagy58@gmail.com","datetime":"2015-01-01 07:15","id":"47","psychoid":"1"}}
+2014-12-08 22:21:30 [update DEAN] -  this far..
+2014-12-08 22:21:30 [update] -  got: dean d nagy
+2014-12-08 22:21:30 [overlapAppointments MID] - id 
+2014-12-08 22:21:30 [UPDATEAPPNTMNT] - :name dean d nagy :emailAdr deannagy58@gmail.com :datetime 2015-01-01 07:15
+2014-12-08 22:21:30 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-08 22:21:30 [GETALL] -  yeah...GOT HERE ******
+2014-12-08 22:21:43 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-08 22:21:43 [GETALL] -  yeah...GOT HERE ******
+2014-12-08 22:21:53 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"dean d nagy","email":"deannagy58@gmail.com","datetime":"2015-01-01 07:15","id":"47","psychoid":"1"}}
+2014-12-08 22:21:53 [update DEAN] -  this far..
+2014-12-08 22:21:53 [update] -  got: dean d nagy
+2014-12-08 22:21:53 [overlapAppointments MID] - id 2015-01-01 07:15:00
+2014-12-08 22:22:04 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"dean d nagy","email":"deannagy58@gmail.com","datetime":"2015-01-01 05:15","id":"47","psychoid":"1"}}
+2014-12-08 22:22:04 [update DEAN] -  this far..
+2014-12-08 22:22:04 [update] -  got: dean d nagy
+2014-12-08 22:22:04 [overlapAppointments MID] - id 
+2014-12-08 22:22:04 [UPDATEAPPNTMNT] - :name dean d nagy :emailAdr deannagy58@gmail.com :datetime 2015-01-01 05:15
+2014-12-08 22:22:04 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-08 22:22:04 [GETALL] -  yeah...GOT HERE ******
+2014-12-08 22:23:58 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"dean d nagy","email":"deannagy58@gmail.com","datetime":"2015-01-01 05:15","id":"47","psychoid":"1"}}
+2014-12-08 22:23:58 [update DEAN] -  this far..
+2014-12-08 22:23:58 [update] -  got: dean d nagy
+2014-12-08 22:23:58 [overlapAppointments MID] - id 2015-01-01 05:15:00
+2014-12-08 22:27:29 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"dean d nagy","email":"deannagy58@gmail.com","datetime":"2015-01-01 04:15","id":"47","psychoid":"1"}}
+2014-12-08 22:27:29 [update DEAN] -  this far..
+2014-12-08 22:27:29 [update] -  got: dean d nagy
+2014-12-08 22:27:29 [overlapAppointments MID] - id 2015-01-01 05:15:00
+2014-12-08 22:27:34 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-08 22:27:34 [GETALL] -  yeah...GOT HERE ******
+2014-12-08 22:27:59 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"dean d nagy","email":"deannagy58@gmail.com","datetime":"2015-01-01 17:15","id":"47","psychoid":"1"}}
+2014-12-08 22:27:59 [update DEAN] -  this far..
+2014-12-08 22:27:59 [update] -  got: dean d nagy
+2014-12-08 22:27:59 [overlapAppointments MID] - id 
+2014-12-08 22:27:59 [UPDATEAPPNTMNT] - :name dean d nagy :emailAdr deannagy58@gmail.com :datetime 2015-01-01 17:15
+2014-12-08 22:27:59 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-08 22:27:59 [GETALL] -  yeah...GOT HERE ******
+2014-12-08 22:30:31 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-08 22:30:31 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 20:29:54 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 20:29:54 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 20:30:24 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 20:30:24 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 20:42:01 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 20:42:01 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 20:51:26 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 20:51:26 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 21:07:01 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 21:07:01 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 21:07:34 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 21:07:34 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 21:08:20 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 21:08:20 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 21:08:48 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 21:08:48 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 21:09:19 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 21:09:19 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 21:10:01 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 21:10:01 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 21:11:32 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 21:11:32 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 21:12:19 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"tues d ay","email":"emai.ladd@gmail.on.ca","datetime":"2014-12-09 21:12","id":"39","psychoid":"1"}}
+2014-12-09 21:12:19 [ADD DEAN] -  this far..
+2014-12-09 21:12:19 [ADD] -  got: tues d ay
+2014-12-09 21:12:19 [overlapAppointments MID] - id 
+2014-12-09 21:12:19 [ADDAPPNTMNT] - :name tues d ay :emailAdr emai.ladd@gmail.on.ca :datetime 2014-12-09 21:12
+2014-12-09 21:12:19 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 21:12:19 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 21:12:37 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 21:12:37 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 21:14:28 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 21:14:28 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 21:16:19 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 21:16:19 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 21:16:29 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"tues d ay","email":"emai.ladd@gmail.on.ca","datetime":"2014-12-10 22:12","id":"65","psychoid":"1"}}
+2014-12-09 21:16:29 [update DEAN] -  this far..
+2014-12-09 21:16:29 [update] -  got: tues d ay
+2014-12-09 21:16:29 [overlapAppointments MID] - id 
+2014-12-09 21:16:29 [UPDATEAPPNTMNT] - :name tues d ay :emailAdr emai.ladd@gmail.on.ca :datetime 2014-12-10 22:12
+2014-12-09 21:16:29 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 21:16:29 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 21:25:12 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 21:25:12 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 21:26:21 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 21:26:21 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 21:26:28 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 21:26:28 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 21:29:58 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 21:29:58 [GETALL] -  yeah...GOT HERE ******
+2014-12-09 21:42:25 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-09 21:42:25 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 19:51:25 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 19:51:25 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 19:52:34 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 19:52:34 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 19:52:48 [TESTING] - hey: {"resource":"APPNT","msgtype":"EDIT","event":"MODAPPNT","params":{"name":"tues d ay","email":"emai.ladd@gmail.on.ca","datetime":"2014-12-12 22:12","id":"65","psychoid":"1"}}
+2014-12-10 19:52:48 [update DEAN] -  this far..
+2014-12-10 19:52:48 [update] -  got: tues d ay
+2014-12-10 19:52:48 [overlapAppointments MID] - id 
+2014-12-10 19:52:48 [UPDATEAPPNTMNT] - :name tues d ay :emailAdr emai.ladd@gmail.on.ca :datetime 2014-12-12 22:12
+2014-12-10 19:52:48 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 19:52:48 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 20:09:34 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 20:09:34 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 20:16:33 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 20:16:33 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 20:17:19 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 20:17:19 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 20:17:37 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 20:17:37 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 20:18:53 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 20:18:53 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 20:19:15 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 20:19:15 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 20:21:25 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 20:21:25 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 20:21:44 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 20:21:44 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 20:22:12 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 20:22:12 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 20:22:49 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 20:22:49 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 20:26:54 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 20:26:54 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 20:39:48 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 20:39:48 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 20:41:53 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 20:41:53 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 20:52:10 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 20:52:10 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 20:56:03 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 20:56:03 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 20:57:44 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 20:57:44 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 21:03:17 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 21:03:17 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 21:05:01 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 21:05:01 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 21:05:56 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 21:05:56 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 21:07:15 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 21:07:15 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 21:07:26 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 21:07:26 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 21:08:07 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-12-10 21:08:07 [LOGINSESSION] -  got req 
+2014-12-10 21:08:07 [LOGIN] -  got: berrigan  309drive
+2014-12-10 21:08:07 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-12-10 21:08:07 [VALIDATEUSER MID] - id 3 name berrigan
+2014-12-10 21:08:07 [VALIDATEUSER exit] - id 3 name berrigan
+2014-12-10 21:08:09 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2014-12-10 21:08:09 [GETALL] -  yeah...GOT HERE ******
+2014-12-10 21:13:47 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-10 21:13:47 [GETALL] -  yeah...GOT HERE ******
+2014-12-14 08:13:31 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"Dean","upwd":"Qwerty"}}
+2014-12-14 08:13:31 [LOGINSESSION] -  got req 
+2014-12-14 08:13:31 [LOGIN] -  got: Dean  Qwerty
+2014-12-14 08:13:31 [VALIDATEUSER] - :name Dean :emailAdr Qwerty
+2014-12-14 08:13:31 [VALIDATEUSER MID] - id 1 name dean
+2014-12-14 08:13:31 [VALIDATEUSER exit] - id 1 name dean
+2014-12-15 23:04:22 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-15 23:04:22 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 19:36:58 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-12-17 19:36:58 [LOGINSESSION] -  got req 
+2014-12-17 19:36:58 [LOGIN] -  got: berrigan  309drive
+2014-12-17 19:36:58 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-12-17 19:36:58 [VALIDATEUSER MID] - id 3 name berrigan
+2014-12-17 19:36:58 [VALIDATEUSER exit] - id 3 name berrigan
+2014-12-17 19:37:03 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2014-12-17 19:37:03 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 19:49:34 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2014-12-17 19:49:34 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 19:57:45 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"sue","upwd":"suzieq"}}
+2014-12-17 19:57:45 [LOGINSESSION] -  got req 
+2014-12-17 19:57:45 [LOGIN] -  got: sue  suzieq
+2014-12-17 19:57:45 [VALIDATEUSER] - :name sue :emailAdr suzieq
+2014-12-17 19:57:45 [VALIDATEUSER MID] - id 2 name sue
+2014-12-17 19:57:45 [VALIDATEUSER exit] - id 2 name sue
+2014-12-17 19:57:47 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-17 19:57:47 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 19:58:19 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-12-17 19:58:19 [LOGINSESSION] -  got req 
+2014-12-17 19:58:19 [LOGIN] -  got: dean  qwerty
+2014-12-17 19:58:19 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-12-17 19:58:19 [VALIDATEUSER MID] - id 1 name dean
+2014-12-17 19:58:19 [VALIDATEUSER exit] - id 1 name dean
+2014-12-17 19:58:21 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-17 19:58:21 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 19:59:18 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"weds day","email":"emai.ladd@gmail.com","datetime":"2014-12-21 17:00","id":"0","psychoid":"1"}}
+2014-12-17 19:59:18 [ADD DEAN] -  this far..
+2014-12-17 19:59:18 [ADD] -  got: weds day
+2014-12-17 19:59:18 [overlapAppointments MID] - id 
+2014-12-17 19:59:18 [ADDAPPNTMNT] - :name weds day :emailAdr emai.ladd@gmail.com :datetime 2014-12-21 17:00
+2014-12-17 19:59:18 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-17 19:59:18 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 20:00:14 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"mrs w. day","email":"emai.ladd@gov.on.ca","datetime":"2014-12-21 17:30","id":"0","psychoid":"1"}}
+2014-12-17 20:00:14 [ADD DEAN] -  this far..
+2014-12-17 20:00:14 [ADD] -  got: mrs w. day
+2014-12-17 20:00:14 [overlapAppointments MID] - id 2014-12-21 17:00:00
+2014-12-17 20:00:29 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"mrs w. day","email":"emai.ladd@gov.on.ca","datetime":"2014-12-21 18:00","id":"0","psychoid":"1"}}
+2014-12-17 20:00:29 [ADD DEAN] -  this far..
+2014-12-17 20:00:29 [ADD] -  got: mrs w. day
+2014-12-17 20:00:29 [overlapAppointments MID] - id 2014-12-21 17:00:00
+2014-12-17 20:00:46 [TESTING] - hey: {"resource":"APPNT","msgtype":"ADD","event":"MODAPPNT","params":{"name":"mrs w. day","email":"emai.ladd@gov.on.ca","datetime":"2014-12-21 18:01","id":"0","psychoid":"1"}}
+2014-12-17 20:00:46 [ADD DEAN] -  this far..
+2014-12-17 20:00:46 [ADD] -  got: mrs w. day
+2014-12-17 20:00:46 [overlapAppointments MID] - id 
+2014-12-17 20:00:46 [ADDAPPNTMNT] - :name mrs w. day :emailAdr emai.ladd@gov.on.ca :datetime 2014-12-21 18:01
+2014-12-17 20:00:46 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-17 20:00:46 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 20:05:38 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-17 20:05:38 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 20:09:52 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-17 20:09:52 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 20:10:22 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-17 20:10:22 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 20:12:57 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-17 20:12:57 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 20:13:27 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-17 20:13:27 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 20:16:09 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-17 20:16:09 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 20:18:51 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-17 20:18:51 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 20:19:12 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-17 20:19:12 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 20:25:02 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-17 20:25:02 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 20:29:32 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-17 20:29:32 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 20:29:35 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-17 20:29:35 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 20:30:14 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-17 20:30:14 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 20:32:53 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-17 20:32:53 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 20:37:12 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-17 20:37:12 [GETALL] -  yeah...GOT HERE ******
+2014-12-17 20:38:09 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-17 20:38:09 [GETALL] -  yeah...GOT HERE ******
+2014-12-18 20:59:55 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-18 20:59:55 [GETALL] -  yeah...GOT HERE ******
+2014-12-18 21:01:35 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-18 21:01:35 [GETALL] -  yeah...GOT HERE ******
+2014-12-18 21:02:36 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2014-12-18 21:02:36 [LOGINSESSION] -  got req 
+2014-12-18 21:02:36 [LOGIN] -  got: dean  qwerty
+2014-12-18 21:02:36 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2014-12-18 21:02:36 [VALIDATEUSER MID] - id 1 name dean
+2014-12-18 21:02:36 [VALIDATEUSER exit] - id 1 name dean
+2014-12-18 21:02:40 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-18 21:02:40 [GETALL] -  yeah...GOT HERE ******
+2014-12-18 21:03:22 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-18 21:03:22 [GETALL] -  yeah...GOT HERE ******
+2014-12-18 21:03:35 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-18 21:03:35 [GETALL] -  yeah...GOT HERE ******
+2014-12-18 21:04:38 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-18 21:04:38 [GETALL] -  yeah...GOT HERE ******
+2014-12-18 21:04:55 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-18 21:04:55 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 15:36:26 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 15:36:26 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 15:40:18 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 15:40:18 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 15:50:06 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 15:50:06 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 15:50:42 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 15:50:42 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 15:51:12 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 15:51:12 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 15:51:46 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 15:51:46 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 15:52:38 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 15:52:38 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 15:54:32 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 15:54:32 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 15:58:47 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 15:58:47 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 15:59:58 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 15:59:58 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:01:42 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:01:42 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:03:11 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:03:11 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:11:03 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:11:03 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:11:42 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:11:42 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:23:25 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:23:25 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:24:53 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:24:53 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:25:32 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:25:32 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:29:47 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:29:47 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:30:18 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:30:18 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:31:54 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:31:54 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:33:32 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:33:32 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:33:56 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:33:56 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:36:02 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:36:02 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:38:08 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:38:08 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:40:05 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:40:05 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:42:38 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:42:38 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:44:00 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:44:00 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:47:49 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:47:49 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:49:16 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:49:16 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 16:51:02 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 16:51:02 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 17:04:44 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 17:04:44 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 17:06:25 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 17:06:25 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 17:10:15 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 17:10:15 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 17:12:18 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 17:12:18 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 17:12:35 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 17:12:35 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 17:20:37 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 17:20:37 [GETALL] -  yeah...GOT HERE ******
+2014-12-21 22:14:52 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2014-12-21 22:14:52 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 13:53:34 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"sue","upwd":"suzieq"}}
+2014-12-22 13:53:34 [LOGINSESSION] -  got req 
+2014-12-22 13:53:34 [LOGIN] -  got: sue  suzieq
+2014-12-22 13:53:34 [VALIDATEUSER] - :name sue :emailAdr suzieq
+2014-12-22 13:53:34 [VALIDATEUSER MID] - id 2 name sue
+2014-12-22 13:53:34 [VALIDATEUSER exit] - id 2 name sue
+2014-12-22 13:53:37 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 13:53:37 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:18:13 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:18:13 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:23:01 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:23:01 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:23:29 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:23:29 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:24:17 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:24:17 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:26:54 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:26:54 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:27:21 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:27:21 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:27:43 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:27:43 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:28:02 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:28:02 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:28:48 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:28:48 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:29:15 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:29:15 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:29:58 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:29:58 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:30:14 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:30:14 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:30:27 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:30:27 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:31:09 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:31:09 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:31:43 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:31:43 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:32:06 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:32:06 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:32:42 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:32:42 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:33:07 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:33:07 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:33:59 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:33:59 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:35:02 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:35:02 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:39:54 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:39:54 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:49:30 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:49:30 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:52:48 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:52:48 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:53:13 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:53:13 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:53:25 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:53:25 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:53:45 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:53:45 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:53:55 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:53:55 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:55:07 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:55:07 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:56:20 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:56:20 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:57:30 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:57:30 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 14:58:32 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 14:58:32 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 15:02:42 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 15:02:42 [GETALL] -  yeah...GOT HERE ******
+2014-12-22 15:04:55 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-22 15:04:55 [GETALL] -  yeah...GOT HERE ******
+2014-12-23 20:01:41 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-23 20:01:41 [GETALL] -  yeah...GOT HERE ******
+2014-12-23 20:55:14 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-23 20:55:14 [GETALL] -  yeah...GOT HERE ******
+2014-12-23 20:57:29 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-23 20:57:29 [GETALL] -  yeah...GOT HERE ******
+2014-12-23 20:57:54 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-23 20:57:54 [GETALL] -  yeah...GOT HERE ******
+2014-12-24 11:35:25 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2014-12-24 11:35:25 [LOGINSESSION] -  got req 
+2014-12-24 11:35:25 [LOGIN] -  got: berrigan  309drive
+2014-12-24 11:35:25 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2014-12-24 11:35:25 [VALIDATEUSER MID] - id 3 name berrigan
+2014-12-24 11:35:25 [VALIDATEUSER exit] - id 3 name berrigan
+2014-12-24 11:35:29 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2014-12-24 11:35:29 [GETALL] -  yeah...GOT HERE ******
+2014-12-24 11:35:33 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2014-12-24 11:35:33 [GETALL] -  yeah...GOT HERE ******
+2014-12-24 11:35:54 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"sue","upwd":"suzieq"}}
+2014-12-24 11:35:54 [LOGINSESSION] -  got req 
+2014-12-24 11:35:54 [LOGIN] -  got: sue  suzieq
+2014-12-24 11:35:54 [VALIDATEUSER] - :name sue :emailAdr suzieq
+2014-12-24 11:35:54 [VALIDATEUSER MID] - id 2 name sue
+2014-12-24 11:35:54 [VALIDATEUSER exit] - id 2 name sue
+2014-12-24 11:35:56 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-24 11:35:56 [GETALL] -  yeah...GOT HERE ******
+2014-12-24 11:37:14 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-24 11:37:14 [GETALL] -  yeah...GOT HERE ******
+2014-12-24 11:39:39 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-24 11:39:39 [GETALL] -  yeah...GOT HERE ******
+2014-12-24 11:39:52 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-24 11:39:52 [GETALL] -  yeah...GOT HERE ******
+2014-12-24 12:07:54 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-24 12:07:54 [GETALL] -  yeah...GOT HERE ******
+2014-12-24 12:09:45 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-24 12:09:45 [GETALL] -  yeah...GOT HERE ******
+2014-12-24 12:21:34 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-24 12:21:34 [GETALL] -  yeah...GOT HERE ******
+2014-12-24 12:22:45 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-24 12:22:45 [GETALL] -  yeah...GOT HERE ******
+2014-12-24 12:23:34 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-24 12:23:34 [GETALL] -  yeah...GOT HERE ******
+2014-12-24 12:24:26 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-24 12:24:26 [GETALL] -  yeah...GOT HERE ******
+2014-12-24 12:25:38 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-24 12:25:38 [GETALL] -  yeah...GOT HERE ******
+2014-12-24 12:26:53 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-24 12:26:53 [GETALL] -  yeah...GOT HERE ******
+2014-12-24 12:27:05 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-24 12:27:05 [GETALL] -  yeah...GOT HERE ******
+2014-12-25 14:59:32 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-25 14:59:32 [GETALL] -  yeah...GOT HERE ******
+2014-12-25 14:59:35 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-25 14:59:35 [GETALL] -  yeah...GOT HERE ******
+2014-12-25 14:59:40 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-25 14:59:40 [GETALL] -  yeah...GOT HERE ******
+2014-12-29 13:38:49 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"2"}}
+2014-12-29 13:38:49 [GETALL] -  yeah...GOT HERE ******
+2014-12-31 14:30:45 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"","upwd":""}}
+2014-12-31 14:30:45 [LOGINSESSION] -  got req 
+2014-12-31 14:30:45 [LOGIN] -  got:   
+2014-12-31 14:30:45 [VALIDATEUSER] - :name  :emailAdr 
+2014-12-31 14:30:45 [VALIDATEUSER MID] - id  name 
+2014-12-31 14:30:45 [VALIDATEUSER exit] - id 0 name 
+2014-12-31 14:30:47 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"","upwd":""}}
+2014-12-31 14:30:47 [LOGINSESSION] -  got req 
+2014-12-31 14:30:47 [LOGIN] -  got:   
+2014-12-31 14:30:47 [VALIDATEUSER] - :name  :emailAdr 
+2014-12-31 14:30:47 [VALIDATEUSER MID] - id  name 
+2014-12-31 14:30:47 [VALIDATEUSER exit] - id 0 name 
+2015-01-07 08:45:22 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2015-01-07 08:45:22 [LOGINSESSION] -  got req 
+2015-01-07 08:45:22 [LOGIN] -  got: berrigan  309drive
+2015-01-07 08:45:22 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2015-01-07 08:45:22 [VALIDATEUSER MID] - id 3 name berrigan
+2015-01-07 08:45:22 [VALIDATEUSER exit] - id 3 name berrigan
+2015-01-07 08:45:24 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2015-01-07 08:45:24 [GETALL] -  yeah...GOT HERE ******
+2015-01-07 08:45:28 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2015-01-07 08:45:28 [GETALL] -  yeah...GOT HERE ******
+2015-01-07 14:46:04 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2015-01-07 14:46:04 [LOGINSESSION] -  got req 
+2015-01-07 14:46:04 [LOGIN] -  got: berrigan  309drive
+2015-01-07 14:46:04 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2015-01-07 14:46:04 [VALIDATEUSER MID] - id 3 name berrigan
+2015-01-07 14:46:04 [VALIDATEUSER exit] - id 3 name berrigan
+2015-01-07 14:46:07 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2015-01-07 14:46:07 [GETALL] -  yeah...GOT HERE ******
+2015-01-07 14:46:16 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2015-01-07 14:46:16 [GETALL] -  yeah...GOT HERE ******
+2015-01-09 18:09:52 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drivex"}}
+2015-01-09 18:09:52 [LOGINSESSION] -  got req 
+2015-01-09 18:09:52 [LOGIN] -  got: berrigan  309drivex
+2015-01-09 18:09:52 [VALIDATEUSER] - :name berrigan :emailAdr 309drivex
+2015-01-09 18:09:52 [VALIDATEUSER MID] - id  name 
+2015-01-09 18:09:52 [VALIDATEUSER exit] - id 0 name 
+2015-01-09 18:09:57 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"berrigan","upwd":"309drive"}}
+2015-01-09 18:09:57 [LOGINSESSION] -  got req 
+2015-01-09 18:09:57 [LOGIN] -  got: berrigan  309drive
+2015-01-09 18:09:57 [VALIDATEUSER] - :name berrigan :emailAdr 309drive
+2015-01-09 18:09:57 [VALIDATEUSER MID] - id 3 name berrigan
+2015-01-09 18:09:57 [VALIDATEUSER exit] - id 3 name berrigan
+2015-01-09 18:10:00 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"3"}}
+2015-01-09 18:10:00 [GETALL] -  yeah...GOT HERE ******
+2015-01-12 16:38:03 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"","upwd":""}}
+2015-01-12 16:38:03 [LOGINSESSION] -  got req 
+2015-01-12 16:38:03 [LOGIN] -  got:   
+2015-01-12 16:38:03 [VALIDATEUSER] - :name  :emailAdr 
+2015-01-12 16:38:03 [VALIDATEUSER MID] - id  name 
+2015-01-12 16:38:03 [VALIDATEUSER exit] - id 0 name 
+2015-01-13 19:28:50 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2015-01-13 19:28:50 [LOGINSESSION] -  got req 
+2015-01-13 19:28:50 [LOGIN] -  got: dean  qwerty
+2015-01-13 19:28:50 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2015-01-13 19:28:50 [VALIDATEUSER MID] - id 1 name dean
+2015-01-13 19:28:50 [VALIDATEUSER exit] - id 1 name dean
+2015-01-13 19:28:53 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-13 19:28:53 [GETALL] -  yeah...GOT HERE ******
+2015-01-13 19:30:28 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-13 19:30:28 [GETALL] -  yeah...GOT HERE ******
+2015-01-13 19:34:35 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-13 19:34:35 [GETALL] -  yeah...GOT HERE ******
+2015-01-13 19:36:13 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-13 19:36:13 [GETALL] -  yeah...GOT HERE ******
+2015-01-13 19:42:13 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2015-01-13 19:42:13 [LOGINSESSION] -  got req 
+2015-01-13 19:42:13 [LOGIN] -  got: dean  qwerty
+2015-01-13 19:42:13 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2015-01-13 19:42:13 [VALIDATEUSER MID] - id 1 name dean
+2015-01-13 19:42:13 [VALIDATEUSER exit] - id 1 name dean
+2015-01-13 19:42:17 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-13 19:42:17 [GETALL] -  yeah...GOT HERE ******
+2015-01-14 12:07:15 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-14 12:07:15 [GETALL] -  yeah...GOT HERE ******
+2015-01-14 12:19:22 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-14 12:19:22 [GETALL] -  yeah...GOT HERE ******
+2015-01-14 12:20:03 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-14 12:20:03 [GETALL] -  yeah...GOT HERE ******
+2015-01-14 12:22:49 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-14 12:22:49 [GETALL] -  yeah...GOT HERE ******
+2015-01-14 12:23:25 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-14 12:23:25 [GETALL] -  yeah...GOT HERE ******
+2015-01-14 12:23:57 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-14 12:23:57 [GETALL] -  yeah...GOT HERE ******
+2015-01-14 12:26:42 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-14 12:26:42 [GETALL] -  yeah...GOT HERE ******
+2015-01-14 12:36:38 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-14 12:36:38 [GETALL] -  yeah...GOT HERE ******
+2015-01-14 18:46:15 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-14 18:46:15 [GETALL] -  yeah...GOT HERE ******
+2015-01-14 18:46:53 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-14 18:46:53 [GETALL] -  yeah...GOT HERE ******
+2015-01-14 20:04:55 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-14 20:04:55 [GETALL] -  yeah...GOT HERE ******
+2015-01-14 20:09:05 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-14 20:09:05 [GETALL] -  yeah...GOT HERE ******
+2015-01-14 20:09:30 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-14 20:09:30 [GETALL] -  yeah...GOT HERE ******
+2015-01-16 13:30:17 [TESTING] - hey: {"resource":"LOGINSESSION","msgtype":"LOGIN","event":"LOGINSTATUS","params":{"uname":"dean","upwd":"qwerty"}}
+2015-01-16 13:30:17 [LOGINSESSION] -  got req 
+2015-01-16 13:30:17 [LOGIN] -  got: dean  qwerty
+2015-01-16 13:30:17 [VALIDATEUSER] - :name dean :emailAdr qwerty
+2015-01-16 13:30:17 [VALIDATEUSER MID] - id 1 name dean
+2015-01-16 13:30:17 [VALIDATEUSER exit] - id 1 name dean
+2015-01-16 13:30:22 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-16 13:30:22 [GETALL] -  yeah...GOT HERE ******
+2015-01-16 22:25:41 [TESTING] - hey: {"resource":"APPNT","msgtype":"LIST","event":"LISTTBL","params":{"psychoid":"1"}}
+2015-01-16 22:25:41 [GETALL] -  yeah...GOT HERE ******

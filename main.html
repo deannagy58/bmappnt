@@ -1,0 +1,438 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>appointment demo</title>
+ 
+	<style>
+table.appcl, tr, th, td{
+  border-bottom: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+table.appcl tr	{
+background-color: #ffffff;
+}
+
+/* table of class appcl, on row hover over, if tds then set background */
+table.appcl tr:hover td {background:#eee;}
+
+
+/* were #999  */
+
+::-webkit-input-placeholder {
+  color: gray;
+}
+::-moz-placeholder { 
+  color: gray;
+}
+
+
+input.formInvalid::-webkit-input-placeholder {
+  color: red;
+}
+input.formInvalid::-moz-placeholder { 
+  color: red;
+}
+
+
+
+:-ms-input-placeholder {
+  color: gray;
+}
+
+#header {
+    color:white;
+    text-align:left;
+    padding:5px;
+}
+
+#nub {
+
+    height:300px;
+    width:200px;
+    float:left;
+    padding:10px;	      
+}
+#section {
+    width:600px;
+    float:left;
+    padding:10px;	 	 
+}
+
+
+/* ===========================  */
+
+.topp,
+.middle,
+.bottom{
+  margin: 0 1px 2px 1px;
+}
+.topp{
+	width: 900px;
+	float:left;
+	margin-bottom:10px;
+}
+
+.middle{
+	width: 900px;
+	float:left;
+}
+
+.bottom {
+  margin-bottom: 0;
+    background: #2db34a;
+  border-radius: 6px;
+}
+</style>
+
+  <link href="css/elements.css" rel="stylesheet">
+  <script src="js/lodash.js"></script>
+  <script type="text/javascript" src="js/core.js"></script> 
+  <script type="text/javascript" src="js/timeClass.js"></script> 
+  <script type="text/javascript" src="js/tableClass.js"></script> 
+
+  <script src="modulesjs/appointments.js"></script>
+  
+ 	<script type="text/javascript">  
+
+
+/*
+
+http://chesterwebconsulting.com/special-characters/
+
+ 
+
+http://www.w3schools.com/charsets/ref_utf_arrows.asp
+
+TODO:
+
+PERFORM BACKUP WEEKEND ON NOV 21 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+nov 20
+
+bug:
+
+  
+  
+
+               
+ - split into dnaModules: appointment mod, ....  <<< design current
+       move validation into popup form module, get values func, maybe define css to use,
+       so that it can become generic and re-useable
+       validating input box, with scrubbing
+
+
+  
+  - table format
+        put into own ??? class
+  
+  - create a navigation/menu class
+  
+  - canned text, cronjob (1 or days days before)
+  - finalise db schema
+  - merge with
+  
+
+  
+  
+  
+*/
+
+
+var timeUtils;
+var dataTable;
+
+var appointModule;
+
+// TODO: create a navigation/menu that creates a menu given a json/object as parameter
+/*
+var mainNavMenu = '<ul class="nav">\
+        <li>\
+            <a >Appointments </a>\
+            <ul>\
+                <li><a  href="#" onclick="addAppointmentForm();return false;">Add</a></li>\
+                <li><a  href="#" onclick="listApp();">List</a></li>\
+            </ul>\
+        </li>\
+        <li><a   >|</a></li>\
+        <li><a  href="#" onclick="doSomething();return false;">Calendar</a></li>\
+    </ul>';
+    
+ */   
+
+
+var mainNavMenu = '<ul id="navmenu" class="nav">\
+        <li>\
+            <a >Appointments </a>\
+            <ul>\
+                <li><a class="add" >Add one</a></li>\
+                <li><a  class="list" >List coming</a></li>\
+            </ul>\
+        </li>\
+        <li><a   >|</a></li>\
+        <li><a  class="calendar" >Calendar-details</a></li>\
+    </ul>';
+    
+
+
+
+var appntForm = { appntform: '<div id="appntTitle">Default title</div><hr><input id="formtype" type="hidden" name="formtype" value="bcm">\
+                                  <input id="eid" type="hidden" name="recic" value=0>\
+                                  <input id="name" name="name" placeholder="Full name" type="text">\
+                                  <input type="text" id="email" name="email" placeholder="Email" >\
+                                  <input  type="text" id="date" name="date" maxlength="10" size="10" placeholder="YYYY-MM-DD">\
+                                  <input  type="text" id="time" name="time" maxlength="8" size="8" placeholder="HH:MM pm">\
+                                  <button  id="submitform">Save</button>',
+                  appntElemReq :  [  {id: "name", type: "TEXT",  errstr: "Full name" +" * required"},
+									{id: "email", type: "EMAIL",  errstr: "Email" +" * check format"},
+									{id: "date" , type: "DATE",  errstr: "YYYY-MM-DD" +" * accepted format"},
+									{id: "time" , type: "TIME",  errstr: "HH:MM pm" +" * accepted format"},
+									{id: "eid" , type: "GRAB",  errstr: ""},
+									{id: "formtype" , type: "GRAB",  errstr: ""},
+    			                  ]			                  
+		      };
+
+
+		 	 
+function func1() {
+  console.log("This is the first.");
+    // *********   if sessionStorage does not exist, then exit, do not allow to continue
+  				if(ss_supported){
+                    curUser = getFromSS('currentUser');
+                    console.log("logged in: " + curUser.name + " hasid of: "+ curUser.id);
+               //     var restoredSession = JSON.parse(sessionStorage.getItem('session'));
+               //     console.log(" sess obj: " + restoredSession.id + " ---- "+ restoredSession.name);
+	
+				}            			
+} // end of func1()
+
+function func2() {
+           console.log("This is the second.");
+           timeUtils = new timeClass();
+           dataTable = new tableClass();
+           document.getElementById("menu").innerHTML = mainNavMenu;
+           appointModule = popupFormModule(appntForm.appntform, appntForm.appntElemReq, "appFrmId", cruAppnt, timeUtils);
+            appointModule.attachForm();
+            
+
+	    document.getElementById("navmenu").addEventListener("click", function (evt) {
+            handleMenuSelection(evt.target.className);
+		
+	    });
+
+
+
+} // end of func2()
+          
+ 		function handleMenuSelection(clickedOn){
+			switch(clickedOn) {
+			case 'add':
+			  addAppointmentForm();
+			  break;
+			case 'list':
+			  listApp();
+			  break;
+			case 'calendar':
+			  doSomething();
+			  break;
+			default:
+			  // do nothing;
+			}
+		
+		} // end of function handleMenuSelection()
+
+/*
+js date/time validation - have to roll own ....
+
+interesting:  http://jesusnjim.com/conversions/clocks.html
+
+
+http://www.the-art-of-web.com/javascript/validate-date/
+http://stackoverflow.com/questions/18715392/javascript-regex-validate-time-with-am-and-pm
+http://stackoverflow.com/questions/3404699/how-to-get-am-pm-from-a-datetime-in-php
+
+
+The DATETIME type is used for values that contain both date and time parts. 
+MySQL retrieves and displays DATETIME values in 'YYYY-MM-DD HH:MM:SS' format. 
+The supported range is '1000-01-01 00:00:00' to '9999-12-31 23:59:59'. 
+
+
+
+*/
+
+		
+	function cruAppnt() {
+        var formVal;
+
+		formVal = appointModule.getFormValues(appntForm.appntElemReq);
+		var curUser = getFromSS('currentUser');
+		var dateTime = formVal.date + " " + timeUtils.Converttimeformat(formVal.time);
+		console.log("cruAppt: time - "+ dateTime);
+		var temp =0;
+		buildSendMsg("SEND", 
+		             JSON.stringify({resource:"APPNT",msgtype:formVal.formtype, event:"MODAPPNT", params:{name: formVal.name, email:formVal.email, datetime:dateTime, id:formVal.eid, psychoid: curUser.id} }),
+		             makePageURL("svr", "tstMsgSrvr.php"),
+		             "post");
+			             		
+	} // end of cruAppnt()
+								
+ 		function listApp(){
+           var curUser = getFromSS('currentUser');
+
+
+			buildSendMsg("SEND", 
+			             JSON.stringify({resource:"APPNT",msgtype:"LIST", event:"LISTTBL", params:{psychoid: curUser.id }}),
+			             makePageURL("svr", "tstMsgSrvr.php"),
+			             "post"
+			             );
+			
+		} // end of function listApp()
+
+
+ 		function delRow(delAppId, name, appDate){
+
+            var confirmStr = "Do you want to delete "+name+ " appointment for "+ appDate;
+		    if (confirm(confirmStr) == true) {
+			buildSendMsg("SEND", 
+			             JSON.stringify({resource:"APPNT",msgtype:"DELETE", event:"DELAPP", appid: delAppId}),
+			             makePageURL("svr", "tstMsgSrvr.php"),
+			             "post"
+			             );
+		    } else {
+		        //do nothing
+		    }
+			
+		} // end of function delRow()
+
+
+        // add a new appointment,
+        // dispaly popup...
+		function addAppointmentForm() {
+	        appointModule.initform();
+	        appointModule.show();
+	
+		} // end of function addAppointmentForm()
+	
+
+ 		function editRow(evt){
+            appointModule.setFormValues(evt.target.myParam);	     
+		    appointModule.show();
+		
+		} // end of function editRow()
+		
+/////
+
+
+ 		function deanRow(evt){
+     //       appointModule.setFormValues(evt.target.myParam);
+            console.log("deanRow: " + evt.target.myParam.id);	     
+		//    appointModule.show();
+		
+		} // end of function editRow()
+
+/////////		
+
+	   function createTbl() {
+		   buildSendMsg("SEND", 
+		             JSON.stringify({resource:"APPNT", msgtype:"CRTBL"}),
+		             makePageURL("svr", "tstMsgSrvr.php"),
+		             "post");	
+		
+	    } // end of createTbl()
+
+
+	function removeElement(divNum) {
+
+		var d = document.getElementById('appTbl');
+
+		var olddiv = document.getElementById(divNum);
+		if(olddiv !== null){
+			d.removeChild(olddiv);
+		}
+
+	} // end of function removeElement()
+
+		//Listen to your custom event
+		window.addEventListener('MODAPPNT', function (e) {
+			if (e.detail.status === "err"){
+			    alert(e.detail.reason + " " + e.detail.appointment);	
+			}else{
+				appointModule.hide();
+		        listApp();
+		    }	
+		});
+
+		//Listen to your custom event
+		window.addEventListener('LISTTBL', function (e) {
+		    console.log(' LISTTBL event recvd. bla bla..', e.detail.event);
+		    console.log('                     ...', e.detail.info[0].name);
+		    var specialTblCells = [{callback: editRow, icon: "&#x2710;", style:"color:blue;"},
+		                           {callback: deanRow, icon: "&#x2718;", style:"color:black;"}];
+            document.getElementById('appTbl').appendChild(dataTable.appointmentsTable(e.detail, specialTblCells));
+		
+		});
+
+		//Listen to your custom event
+		window.addEventListener('DELAPP', function (e) {
+            listApp();
+		
+		});
+		
+
+	addLoadEvent(func1);
+	addLoadEvent(func2);
+	addLoadEvent(function() {
+	    document.body.style.backgroundColor = '#fff';
+	})
+
+/*	
+	var ulList = document.getElementById("navmenu");
+	ulList.addEventListener('click', function (evt) {
+        console.log("CLICKED MENU ITEM" );
+		
+	});
+*/		
+
+
+
+function doSomething() {
+
+    // remove previous content
+    var mainDiv = document.getElementById('appTbl');
+    console.log("nodes: " + mainDiv.childNodes.length);
+    mainDiv.removeChild(mainDiv.childNodes[0]);
+    console.log("nodes: after " + mainDiv.childNodes.length);
+    
+    return false;
+}
+
+
+//   test funcs area  ----------------------------------------------------------------------------
+			
+	</script>
+	
+	
+	</head>
+	
+<body>
+
+<div id="appFrmId" > </div>
+	<div>
+	
+<!-- <div id="header"> -->
+<div class="topp">
+   <div class="menu" id="menu"></div>
+</div>
+
+
+<!-- <div id="section"> -->
+<div class="middle">
+ <div id="appTbl" class="tbl"></div>
+ </div>
+ 
+ <div class="bottom">
+
+</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>date time - json parse exp</title>
+  
+ 	<script type="text/javascript">  
+		 
+/*
+
+
+[{"name":"rico gash","appointment":"2014-11-02 17:00:00","emailadr":"qwerty@jones.ca"},{"name":"biff terry","appointment":"2014-11-03 17:00:00","emailadr":"biff@jones.ca"},{"name":"berry wom","appointment":"2014-11-04 19:00:00","emailadr":"berry@jones.ca"},{"name":"rico gash beee","appointment":"2014-11-04 17:00:00","emailadr":"qwerty.beee@jones.ca"},{"name":"rico gash","appointment":"2014-11-07 17:00:00","emailadr":"qwerty@jones.ca"}]
+
+
+var d = new Date,
+    dformat = [d.getMonth()+1,
+               d.getDate(),
+               d.getFullYear()].join('/')+' '+
+              [d.getHours(),
+               d.getMinutes(),
+               d.getSeconds()].join(':');
+
+*/
+		
+
+
+
+		function myInit() {
+						
+
+
+		}// end of function myInit()
+
+
+		/**
+		 * isValidDate(str)
+		 * @param string str value yyyy-mm-dd
+		 * @return boolean true or false
+		 * IF date is valid return true
+		 */
+		function isValidDate(str){
+			// STRING FORMAT yyyy-mm-dd
+			if(str=="" || str==null){return false;}								
+			
+			// m[1] is year 'YYYY' * m[2] is month 'MM' * m[3] is day 'DD'					
+			var m = str.match(/(\d{4})-(\d{2})-(\d{2})/);
+			
+			// STR IS NOT FIT m IS NOT OBJECT
+			if( m === null || typeof m !== 'object'){return false;}				
+			
+			// CHECK m TYPE
+			if (typeof m !== 'object' && m !== null && m.size!==3){return false;}
+						
+			var ret = true; //RETURN VALUE						
+			var thisYear = new Date().getFullYear(); //YEAR NOW
+			var minYear = 2013; //MIN YEAR
+			
+			// YEAR CHECK
+			if( (m[1].length < 4) || m[1] < minYear || m[1] > thisYear){ret = false;}
+			// MONTH CHECK			
+			if( (m[2].length < 2) || m[2] < 1 || m[2] > 12){ret = false;}
+			// DAY CHECK
+			if( (m[3].length < 2) || m[3] < 1 || m[3] > 31){ret = false;}
+			
+			return ret;			
+		}
+
+
+	function testDate() {
+		console.log("testDate: " +  document.getElementById("date").value);
+		console.log("testDate: " + document.getElementById("date").value + "  " + isValidDate(document.getElementById("date").value));
+		
+	}
+	
+	function testJSON() {
+		var dummy = 0;
+		var jsonMsg = document.getElementById("json").value
+		console.log("testJSON:"+  jsonMsg);
+		var msgObj = JSON.parse(jsonMsg);
+		dummy = 5;
+	}
+	
+	
+
+		
+								
+		window.onload = myInit;
+				
+	</script>
+	
+	
+	</head>
+<body>
+	
+		<form name="htmlform" method="post" action="html_form_send.php">
+		<table width="450px">
+		</tr>
+		<tr>
+		 <td valign="top">
+		  <label for="first_name">To Name</label>
+		 </td>
+		 <td valign="top">
+		  <input  type="text" name="first_name" maxlength="50" size="30">
+		 </td>
+		</tr>
+		 
+		<tr>
+		 <td valign="top"">
+		  <label for="last_name">For Name</label>
+		 </td>
+		 <td valign="top">
+		  <input  type="text" name="last_name" maxlength="50" size="30">
+		 </td>
+		</tr>
+		<tr>
+		 <td valign="top">
+		  <label for="email">Email Address</label>
+		 </td>
+		 <td valign="top">
+		  <input  type="text" name="email" maxlength="80" size="30" >
+		 </td>
+		 
+		</tr>
+		
+		<tr>
+		 <td valign="top">
+		  <label for="date">Date:</label>
+		 </td>
+		 <td valign="top">
+		  <input  type="text" id="date" name="date" maxlength="10" size="15" placeholder="YYYY-MM-DD">
+		 </td>
+		 
+		</tr>
+
+
+		<tr>
+		 <td valign="top">
+		  <label for="date">Time:</label>
+		 </td>
+		 <td valign="top">
+		  <input  type="text" id="time" name="time" maxlength="5" size="10" placeholder="HH:MM">
+		 </td>
+		 
+		</tr>
+		
+				
+		
+		<tr>
+		 <td valign="top">
+		  <label for="json">JSON</label>
+		 </td>
+		 <td valign="top">
+		  <input  type="text" id="json" name="json" maxlength="1000" size="30">
+		 </td>
+		</tr>
+		<tr>
+		 <td valign="top">
+		  <label for="comments">Comments *</label>
+		 </td>
+		 <td valign="top">
+		  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+		 </td>
+		 
+		</tr>
+		
+		</table>
+		</form>
+    <input type="button" onclick="testDate();"   value="date check">  
+    <input type="button" onclick="testJSON();"   value="json check">
+</body>
+</html>
